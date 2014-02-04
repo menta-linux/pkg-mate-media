@@ -8,6 +8,8 @@ Uploaders: Mike Gabriel <sunweaver@debian.org>,
            Vangelis Mouhtsis <vangelis@gnugr.org>,
 Standards-Version: 3.9.5
 Homepage: http://www.mate-desktop.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-media.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-media.git
 Build-Depends: cdbs,
                debhelper (>= 8),
                intltool,
