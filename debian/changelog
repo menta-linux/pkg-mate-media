@@ -1,12 +1,5 @@
-mate-media (1.6.1-1) UNRELEASED; urgency=low
+mate-media (1.8.0-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #734802).
 
- -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 06 Apr 2013 18:36:24 +0200
-
-
-
-
-
-
-
+ -- Vangelis Mouhtsis <vangelis@gnugr.org>  Fri, 18 Apr 2014 15:29:45 +0300
