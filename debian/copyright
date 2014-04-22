@@ -26,7 +26,7 @@ Files: mate-volume-control/src/applet-main.c
        mate-volume-control/src/gvc-stream-status-icon.h
        sound-theme/gvc-sound-theme-chooser.h
        sound-theme/gvc-sound-theme-editor.h
-Copyright: 2008, 2009, Red Hat, Inc
+Copyright: 2008-2009, Red Hat, Inc.
 License: GPL-2+
 
 Files: gst-mixer-applet/applet.c
@@ -52,7 +52,7 @@ Files: gst-mixer-applet/applet.c
        gst-mixer/src/volume.h
        gst-mixer/src/window.c
        gst-mixer/src/window.h
-Copyright: 2003, 2004, Ronald Bultje <rbultje@ronald.bitfreak.net>
+Copyright: 2003-2004, Ronald Bultje <rbultje@ronald.bitfreak.net>
 License: LGPL-2+
 
 Files: mate-volume-control/src/gvc-balance-bar.c
@@ -104,10 +104,6 @@ Copyright: 2008, William Jon McCann
            2009, Bastien Nocera
 License: GPL-2+
 
-Files: ltmain.sh
-Copyright: 1996-2001, 2003-2007, 2008 Free Software Foundation, Inc
-License: GPL-2+
-
 Files: mate-volume-control/src/gvc-mixer-control.c
 Copyright: 2006-2008, Lennart Poettering
            2008, Sjoerd Simons <sjoerd@luon.net>
@@ -116,56 +112,46 @@ License: GPL-2+
 
 Files: autogen.sh
 Copyright: *No copyright*
-License: UNKNOWN
-Specified files lack copyright/license information in the
-(non-present) file header.
+License: GPL-2+
+Comment:
+ Using license from COPYING file.
 
 Files: debian/*
-Copyright: 2011, Stefano Karapetsas <stefano@karapetsas.com>
-           2013, Mike Gabriel <sunweaver@debian.org>
+Copyright: 2011-2014, Stefano Karapetsas <stefano@karapetsas.com>
+           2014, Mike Gabriel <sunweaver@debian.org>
 License: GPL-2+
 
 License: GPL-2+
-
-This package is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-.
-This package is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU Genaral Public License for more details.
-.
-You should have received a copy og the GNU General Public License
-along with this program. If not, see <http://www.gnu.org/licenses/>
-.
-On Debian systems, the complete text of the GNU General
-Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 License: LGPL-2+
-
-  The licenses for most software are designed to take away your
-freedom to share and change it. By contrast, the GNU General Public
-Licenses are intended to guarantee your freedom to share and change
-free software--to make sure the software is free for all its users.
-
-  This license, the Library General Public License, applies to some
-specially designated Free Software Foundation software, and to any
-other libraries whose authors decide to use it. You can use it for
-your libraries, too.
-
-  When we speak of free software, we are referring to freedom, not
-price. Our General Public Licenses are designed to make sure that you
-have the freedom to distribute copies of free software (and charge for
-this service if you wish), that you receive source code or can get it
-if you want it, that you can change the software or use pieces of it
-in new free programs; and that you know you can do these things.
-
-  To protect your rights, we need to make restrictions that forbid
-anyone to deny you these rights or to ask you to surrender the rights.
-These restrictions translate to certain responsibilities for you if
-you distribute copies of the library, or if you modify it.
-.
-On Debian systems, the complete text of the GNU General
-Public License version LGPL-2 can be found in "/usr/share/common-licenses/LGPL-2".
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version LGPL-2 can be found in "/usr/share/common-licenses/LGPL-2".
