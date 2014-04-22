@@ -17,6 +17,7 @@ DEB_CONFIGURE_SCRIPT := ./autogen.sh
 
 DEB_CONFIGURE_EXTRA_FLAGS += --libexecdir=/usr/lib/mate-media \
 		--localstatedir=/var --disable-static \
+		--disable-silent-rules \
 		--disable-pulseaudio \
 		--disable-scrollkeeper \
 		--enable-gstmix \
