@@ -6,32 +6,33 @@ Uploaders: Mike Gabriel <sunweaver@debian.org>,
            John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
            Stefano Karapetsas <stefano@karapetsas.com>,
            Vangelis Mouhtsis <vangelis@gnugr.org>,
-Standards-Version: 3.9.5
-Homepage: http://www.mate-desktop.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-media.git;a=summary
-Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-media.git
 Build-Depends: cdbs,
                debhelper (>= 9),
                intltool,
                libglib2.0-dev,
                libgtk2.0-dev,
-               libgladeui-1-dev,
+               libgladeui-dev,
                libpulse-dev,
                libcanberra-gtk-dev,
                libxml2-dev,
                libunique-dev,
-               libgstreamer0.10-dev,
-               libgstreamer-plugins-base0.10-dev,
+               libgstreamer1.0-dev,
+               libgstreamer-plugins-base1.0-dev,
                docbook-utils,
-               mate-doc-utils,
-               mate-doc-utils-gnome | gnome-doc-utils,
                scrollkeeper,
-               gstreamer0.10-tools,
-               gstreamer0.10-plugins-base,
-               gstreamer0.10-plugins-good,
+               gstreamer1.0-tools,
+               gstreamer1.0-plugins-base,
+               gstreamer1.0-plugins-good,
                mate-common,
-               libmatedesktop-dev,
-               libmatepanelapplet-dev
+               libmate-desktop-dev,
+               libmate-panel-applet-dev,
+               yelp-tools,
+               libdconf-dev,
+               libstartup-notification0-dev
+Standards-Version: 3.9.5
+Homepage: http://www.mate-desktop.org/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-media.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-media.git
 
 Package: mate-media
 Architecture: all
