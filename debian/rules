@@ -35,6 +35,7 @@ $(DEB_BUILDDIR_mate-media-pulse)/config.status:
 			--libexecdir=/usr/lib/mate-media \
 			--localstatedir=/var --disable-static \
 			--enable-pulseaudio \
+			--disable-silent-rules \
 			--disable-scrollkeeper \
 			--disable-gstmix \
 			--disable-gst-mixer-applet \
