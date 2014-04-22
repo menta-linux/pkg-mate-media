@@ -47,6 +47,9 @@ $(DEB_BUILDDIR_mate-media-pulse)/config.status:
 			--disable-gst-mixer-applet \
 			$(DEB_CONFIGURE_USER_FLAGS)
 
+cleanbuilddir/mate-media-pulse::
+	rm -Rf $(DEB_BUILDDIR_mate-media-pulse)
+
 build/mate-media-pulse::
 	make -C $(DEB_BUILDDIR_mate-media-pulse)
 
