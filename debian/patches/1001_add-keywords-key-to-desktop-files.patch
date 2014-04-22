@@ -1,0 +1,33 @@
+Description: Add keywords key to .desktop files
+Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Forwarded: https://github.com/mate-desktop/mate-media/issues/43
+--- a/gst-mixer/mate-volume-control.desktop.in.in
++++ b/gst-mixer/mate-volume-control.desktop.in.in
+@@ -9,6 +9,7 @@
+ Terminal=false
+ Type=Application
+ Categories=AudioVideo;Mixer;Settings;HardwareSettings;
++Keywords=MATE;volume;control;mixer;settings;sound;events;
+ X-MATE-DocPath=gst-mixer/mate-volume-control.xml
+ X-MATE-Bugzilla-Bugzilla=MATE
+ X-MATE-Bugzilla-Product=mate-media
+--- a/mate-volume-control/data/mate-volume-control-applet.desktop.in
++++ b/mate-volume-control/data/mate-volume-control-applet.desktop.in
+@@ -6,6 +6,7 @@
+ Terminal=false
+ Type=Application
+ Categories=AudioVideo;Mixer;Settings;HardwareSettings;
++Keywords=MATE;volume;control;mixer;settings;sound;
+ NoDisplay=true
+ OnlyShowIn=MATE;
+ X-MATE-Bugzilla-Bugzilla=MATE
+--- a/mate-volume-control/data/mate-volume-control.desktop.in.in
++++ b/mate-volume-control/data/mate-volume-control.desktop.in.in
+@@ -7,6 +7,7 @@
+ Type=Application
+ StartupNotify=true
+ Categories=AudioVideo;Mixer;Settings;HardwareSettings;
++Keywords=MATE;volume;control;mixer;settings;sound;events;
+ OnlyShowIn=MATE;
+ X-MATE-Bugzilla-Bugzilla=MATE
+ X-MATE-Bugzilla-Product=mate-media
