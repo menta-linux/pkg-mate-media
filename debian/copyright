@@ -95,9 +95,9 @@ Files: gst-mixer/src/schemas.c
 Copyright: 2012, Stefano Karapetsas <stefano@karapetsas.com>
 License: LGPL-2+
 
-Files: build-aux/ltmain.sh
-Copyright: 1996-2001, 2003-2006
-License: GPL-2+
+Files: build-aux/git-version-gen
+Copyright: 2007-2008, Free Software Foundation, Inc.
+License: GPL-3+
 
 Files: mate-volume-control/src/gvc-mixer-card.c
 Copyright: 2008, William Jon McCann
@@ -110,7 +110,57 @@ Copyright: 2006-2008, Lennart Poettering
            2008, William Jon McCann
 License: GPL-2+
 
-Files: autogen.sh
+Files: gst-mixer/icons/16x16/devices/Makefile.am
+       gst-mixer/icons/16x16/devices/*.png
+       gst-mixer/icons/16x16/status/Makefile.am
+       gst-mixer/icons/16x16/status/*.png
+       gst-mixer/icons/16x16/Makefile.am
+       gst-mixer/icons/Makefile.am
+       gst-mixer/pixmaps/Makefile.am
+       gst-mixer/pixmaps/*.png
+       gst-mixer/src/Makefile.am
+       gst-mixer/Makefile.am
+       gst-mixer/*.convert
+       gst-mixer/*.in
+Copyright: *No copyright*
+License: LGPL-2+
+Comment:
+ Using license from COPYING.gst-mixer file.
+
+Files: gst-mixer-applet/Makefile.am
+       gst-mixer-applet/*.xml
+       gst-mixer-applet/*.in
+       man/Makefile.am
+       man/*.1
+       mate-volume-control/data/icons/16x16/status/Makefile.am
+       mate-volume-control/data/icons/16x16/status/*.png
+       mate-volume-control/data/icons/16x16/Makefile.am
+       mate-volume-control/data/icons/22x22/status/Makefile.am
+       mate-volume-control/data/icons/22x22/status/*.png
+       mate-volume-control/data/icons/22x22/Makefile.am
+       mate-volume-control/data/icons/24x24/status/Makefile.am
+       mate-volume-control/data/icons/24x24/status/*.png
+       mate-volume-control/data/icons/24x24/Makefile.am
+       mate-volume-control/data/icons/32x32/status/Makefile.am
+       mate-volume-control/data/icons/32x32/status/*.png
+       mate-volume-control/data/icons/32x32/Makefile.am
+       mate-volume-control/data/icons/scalable/devices/Makefile.am
+       mate-volume-control/data/icons/scalable/devices/*.svg
+       mate-volume-control/data/icons/scalable/status/Makefile.am
+       mate-volume-control/data/icons/scalable/status/*.svg
+       mate-volume-control/data/icons/scalable/Makefile.am
+       mate-volume-control/data/icons/Makefile.am
+       mate-volume-control/data/Makefile.am
+       mate-volume-control/data/*.in
+       mate-volume-control/src/Makefile.am
+       mate-volume-control/Makefile.am
+       sound-theme/sounds/Makefile.am
+       sound-theme/sounds/*.ogg
+       sound-theme/sounds/*.in
+       sound-theme/Makefile.am
+       Makefile.am
+       autogen.sh
+       configure.ac
 Copyright: *No copyright*
 License: GPL-2+
 Comment:
@@ -119,7 +169,7 @@ Comment:
 Files: debian/*
 Copyright: 2011-2014, Stefano Karapetsas <stefano@karapetsas.com>
            2014, Mike Gabriel <sunweaver@debian.org>
-License: GPL-2+
+License: GPL-2+ or GPL-3+ or LGPL-2+
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
@@ -137,6 +187,23 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
