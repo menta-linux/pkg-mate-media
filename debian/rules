@@ -59,6 +59,12 @@ install/mate-media-pulse::
 	# delete conflicts file with mate-media-common
 	rm -rf debian/mate-media-pulse/usr/share/locale/
 
+common-install-indep:: remove-cruft
+common-install-arch:: remove-cruft
+
+remove-cruft::
+	rm -f debian/tmp/usr/share/MakeConf/gsettings/mate-volume-control.convert
+
 get-orig-source: $(PKG)_$(VER)$(DTYPE).orig.tar.xz $(info I: $(PKG)_$(VER)$(DTYPE))
 	@
 
