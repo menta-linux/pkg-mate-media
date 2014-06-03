@@ -56,7 +56,7 @@ Depends: ${shlibs:Depends},
          gstreamer0.10-plugins-base,
          gstreamer0.10-plugins-good,
          x11-utils,
-         marco (>= 1.5.0),
+         marco-common,
          mate-desktop (>= 1.5.0)
 Recommends: alsa-utils,
             sound-theme-freedesktop
