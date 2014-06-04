@@ -1,3 +1,17 @@
+mate-media (1.8.0+dfsg1-2) unstable; urgency=low
+
+  [ Vangelis Mouhtsis ]
+  * debian/rules:
+    + Replace on dh_install --list-missing -> --fail-missing.
+    + Remove non-packaged *.convert files after build.
+
+  [ Mike Gabriel ]
+  * debian/control:
+    + Fix D (bin:package mate-media-gstreamer): marco-common (instead of
+      marco >= 1.5.0). (Closes: #750456).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 04 Jun 2014 01:44:40 +0200
+
 mate-media (1.8.0+dfsg1-1) unstable; urgency=low
 
   * Initial release. (Closes: #734802).
