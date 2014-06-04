@@ -63,7 +63,7 @@ common-install-indep:: remove-cruft
 common-install-arch:: remove-cruft
 
 remove-cruft::
-	rm -f debian/tmp/usr/share/MakeConf/gsettings/mate-volume-control.convert
+	rm -f debian/tmp/usr/share/MateConf/gsettings/mate-volume-control.convert
 
 get-orig-source: $(PKG)_$(VER)$(DTYPE).orig.tar.xz $(info I: $(PKG)_$(VER)$(DTYPE))
 	@
