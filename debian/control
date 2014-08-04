@@ -38,7 +38,7 @@ Package: mate-media
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         mate-media-gstreamer | mate-media-pulse
+         mate-media-pulse (>= ${source:Version}) | mate-media-gstreamer (>= ${source:Version}),
 Description: MATE media utilities (metapackage)
  This package provides media utilities for the MATE desktop:
  .
