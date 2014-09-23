@@ -29,7 +29,7 @@ Build-Depends: cdbs,
                yelp-tools,
                libdconf-dev,
                libstartup-notification0-dev,
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.mate-desktop.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-media.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-media.git
