@@ -122,10 +122,30 @@ Files: gst-mixer/icons/16x16/devices/Makefile.am
        gst-mixer/Makefile.am
        gst-mixer/*.convert
        gst-mixer/*.in
+       gst-mixer-applet/AUTHORS
+       COPYING.gst-mixer
 Copyright: *No copyright*
 License: LGPL-2+
 Comment:
  Using license from COPYING.gst-mixer file.
+
+Files:  po/*.po
+Copyright: 1998-2010, Free Software Foundation, Inc.
+           2009, GNOME i18n Project for Vietnamese.
+           1999, Sergio Rua <srua@iname.com>
+           2000-2001, Jesús Bravo Álvarez <jba@pobox.com>
+           2003, 2005, Sharif FarsiWeb, Inc.
+           2003-2009, The GNOME Foundation
+           2007, 2009, 2010, The GNOME Project
+           2004, 2005, 2006, Miloslav Trmac <mitr@volny.cz>.
+           2004-2006, Adam Weinberger and the GNOME Foundation
+           2004, Gurban Mühemmet Tewekgeli and
+           2005, Canonical Ltd.
+           2006, Lukas Novotny <lukasnov@cvs.mate.org>.
+           THE PACKAGE'S COPYRIGHT HOLDER
+License: LGPL-2+ or GPL-2+
+Comment:
+ Using licenses from COPYING or COPYING.gst-mixer file.
 
 Files: gst-mixer-applet/Makefile.am
        gst-mixer-applet/*.xml
@@ -153,14 +173,28 @@ Files: gst-mixer-applet/Makefile.am
        mate-volume-control/data/Makefile.am
        mate-volume-control/data/*.in
        mate-volume-control/src/Makefile.am
+       mate-volume-control/AUTHORS
+       mate-volume-control/ChangeLog.pre-2-26
        mate-volume-control/Makefile.am
        sound-theme/sounds/Makefile.am
        sound-theme/sounds/*.ogg
        sound-theme/sounds/*.in
+       .tx/config
+       AUTHORS
        sound-theme/Makefile.am
        Makefile.am
        autogen.sh
        configure.ac
+       COPYING
+       ChangeLog
+       NEWS
+       NEWS.GNOME
+       README
+       po/ChangeLog
+       po/LINGUAS
+       po/POTFILES.in
+       po/POTFILES.skip
+       po/gnome-copyrights.txt
 Copyright: *No copyright*
 License: GPL-2+
 Comment:
