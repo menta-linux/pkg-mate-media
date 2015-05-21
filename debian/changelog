@@ -1,3 +1,16 @@
+mate-media (1.8.0+dfsg1-4) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 1002_glib_connect_first.patch. GLib >= 2.43 compatibility patch.
+      (Closes: #780780).
+  * debian/control:
+    + Bump Standards: to 3.9.6. No changes needed.
+  * debian/copyright:
+    + Really mention all files in copyright file. Esp. list copyright
+      holders of the po/*.po files.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 21 May 2015 09:32:14 +0200
+
 mate-media (1.8.0+dfsg1-3) unstable; urgency=medium
 
   * debian/control:
