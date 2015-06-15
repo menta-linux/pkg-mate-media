@@ -1,3 +1,21 @@
+mate-media (1.10.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Replace obsolete mate-media-gstreamer and mate-media-pulseaudio
+    with mate-media.
+  * debian/copyright:
+    + Update for new upstream release.
+  * debian/patches:
+    + Drop 1001_add-keywords-key-to-desktop-files.patch. Applied upstream.
+    + Drop 1002_glib_connect_first.patch. Applied upstream.
+    + Drop 2001_omit-gfdl-licensed-help-files.patch. Upstream is now
+    DFSG compliant.
+  * debian/mate-media-gstreamer.install:
+    + Replace with mate-media.install.
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 13 June 2015 09:29:57 +0100
+
 mate-media (1.8.0+dfsg1-4) unstable; urgency=medium
 
   * debian/patches:
