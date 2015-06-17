@@ -1,20 +1,37 @@
-mate-media (1.10.0-1) UNRELEASED; urgency=medium
+mate-media (1.10.0-1~exp1) experimental; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+    - Completely drop GStreamer support. (Closes: 768101, #785850).
+  * debian/rules:
+    + Switch to pure debhelper.
+    + Use simple uscan rule to obtain orig tarball. Upstream
+      tarball is now DFSG-compliant.
+  * debian/watch:
+    + Drop dversionmangle option.
   * debian/control:
-    + Replace obsolete mate-media-gstreamer and mate-media-pulseaudio
-    with mate-media.
+    + Replace obsolete bin:packages mate-media-gstreamer and
+      mate-media-pulseaudio with bin:package mate-media.
   * debian/copyright:
     + Update for new upstream release.
   * debian/patches:
     + Drop 1001_add-keywords-key-to-desktop-files.patch. Applied upstream.
     + Drop 1002_glib_connect_first.patch. Applied upstream.
     + Drop 2001_omit-gfdl-licensed-help-files.patch. Upstream is now
-    DFSG compliant.
+      DFSG compliant.
   * debian/mate-media-gstreamer.install:
     + Replace with mate-media.install.
+  * debian/control:
+    + Processed with wrap-and-sort.
 
- -- Martin Wimpress <code@flexion.org>  Sat, 13 June 2015 09:29:57 +0100
+  [ Mike Gabriel ]
+  * debian/control:
+    + Versioned B-D: mate-common (>= 1.10).
+    + Mention libmatemixer in LONG_DESCRIPTION of bin:package mate-media.
+  * debian/copyright:
+    + Update to latest upstream release.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 17 Jun 2015 14:09:04 +0200
 
 mate-media (1.8.0+dfsg1-4) unstable; urgency=medium
 
