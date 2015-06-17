@@ -8,8 +8,6 @@ Files: mate-volume-control/gvc-balance-bar.h
        mate-volume-control/gvc-combo-box.h
        mate-volume-control/gvc-speaker-test.h
        mate-volume-control/gvc-stream-status-icon.h
-       sound-theme/gvc-sound-theme-chooser.h
-       sound-theme/gvc-sound-theme-editor.h
 Copyright: 2008-2009, Red Hat, Inc.
 License: GPL-2+
 
