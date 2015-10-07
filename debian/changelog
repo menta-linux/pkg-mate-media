@@ -1,3 +1,10 @@
+mate-media (1.10.0-2) unstable; urgency=medium
+
+  * Re-upload to unstable to sort out a recent auto-decrufter code bug.
+    (Closes: #800950).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 07 Oct 2015 10:30:26 +0200
+
 mate-media (1.10.0-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
