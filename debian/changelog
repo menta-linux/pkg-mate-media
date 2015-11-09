@@ -1,3 +1,9 @@
+mate-media (1.12.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 09 Nov 2015 20:27:15 +0000
+
 mate-media (1.10.0-2) unstable; urgency=medium
 
   * Re-upload to unstable to sort out a recent auto-decrufter code bug.
