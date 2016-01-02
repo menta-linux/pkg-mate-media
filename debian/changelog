@@ -1,8 +1,12 @@
-mate-media (1.12.1-1) UNRELEASED; urgency=medium
+mate-media (1.12.1-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/control:
+    + Versioned B-D: mate-common (>= 1.12), libmate-desktop-dev (>= 1.12) and
+      libmatemixer-dev (>= 1.12).
 
- -- Martin Wimpress <code@flexion.org>  Mon, 09 Nov 2015 20:27:15 +0000
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 02 Jan 2016 07:36:57 +0100
 
 mate-media (1.10.0-2) unstable; urgency=medium
 
