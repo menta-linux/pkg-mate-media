@@ -24,7 +24,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-mate/mate-media.git
 
 Package: mate-media
 Architecture: any
-Depends: mate-desktop-common (>= 1.12),
+Depends: mate-desktop-common (>= 1.14),
          mate-media-common (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
