@@ -16,7 +16,7 @@ Build-Depends: debhelper (>= 9),
                libmatemixer-dev (>= 1.14),
                libunique-3.0-dev,
                libxml2-dev,
-               mate-common (>= 1.12),
+               mate-common (>= 1.14),
 Standards-Version: 3.9.6
 Homepage: http://www.mate-desktop.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-mate/mate-media.git
