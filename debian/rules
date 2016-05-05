@@ -19,7 +19,7 @@ override_dh_auto_configure:
 		--localstatedir=/var \
 		--disable-silent-rules \
 		--disable-static \
-		--with-gtk=2.0
+		--with-gtk=3.0
 
 override_dh_strip:
 	dh_strip --dbg-package=mate-media-dbg
