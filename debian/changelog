@@ -5,6 +5,7 @@ mate-media (1.18.1-1) UNRELEASED; urgency=medium
   * debian/rules: Remove obsolete --with-gtk=3.0
   * debian/copyright: Update copyright attributions.
   * debian/control: Dependencies updated for MATE 1.18.
+  * debian/control: Drop dependency on libunique3 (Closes: #827231)
 
   [ Aron Xu ]
   * New upstream release.
