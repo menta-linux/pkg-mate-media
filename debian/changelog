@@ -1,4 +1,7 @@
-mate-media (1.18.1-1) UNRELEASED; urgency=medium
+mate-media (1.18.1-1) unstable; urgency=medium
+
+  [ Aron Xu ]
+  * New upstream release.
 
   [ Martin Wimpress ]
   * debian/control: Dependencies updated for MATE 1.17.
@@ -6,9 +9,6 @@ mate-media (1.18.1-1) UNRELEASED; urgency=medium
   * debian/copyright: Update copyright attributions.
   * debian/control: Dependencies updated for MATE 1.18.
   * debian/control: Drop dependency on libunique3 (Closes: #827231)
-
-  [ Aron Xu ]
-  * New upstream release.
 
   [ Vangelis Mouhtsis ]
   * debian/compat:
@@ -22,7 +22,7 @@ mate-media (1.18.1-1) UNRELEASED; urgency=medium
   * debian/rules:
     + Disable autoreconf, handled by autogen.sh.
 
- -- Vangelis Mouhtsis <vangelis@gnugr.org>  Sun, 02 Jul 2017 23:15:15 +0300
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 25 Jul 2017 13:48:11 +0200
 
 mate-media (1.16.0-1) unstable; urgency=medium
 
