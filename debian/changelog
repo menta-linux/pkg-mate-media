@@ -1,8 +1,13 @@
-mate-media (1.18.2-1) UNRELEASED; urgency=medium
+mate-media (1.18.2-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 13 Nov 2017 21:52:54 +0000
+  [ Mike Gabriel ]
+  * debian/control:
+    + Bump Standards-Version: to 4.1.1. No changes needed.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 14 Nov 2017 10:03:08 +0100
 
 mate-media (1.18.1-1) unstable; urgency=medium
 
