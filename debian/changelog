@@ -1,3 +1,11 @@
+mate-media (1.20.0-1) unstable; urgency=medium
+
+  [ Martin Wimpress ]
+  * debian/copyright (already in 1.19.1-0ubuntu1):
+    + Update copyright attributions.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 13 Feb 2018 18:30:10 +0100
+
 mate-media (1.20.0-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
