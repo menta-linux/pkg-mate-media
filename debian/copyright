@@ -57,7 +57,8 @@ Copyright: 2008, Red Hat, Inc.
            2014, Michal Ratajsky <michal.ratajsky@gmail.com>
 License: GPL-2+
 
-Files:  po/*.po
+Files: mate-media.pot
+       po/*.po
 Copyright: 1998-2010, Free Software Foundation, Inc.
            2009, GNOME i18n Project for Vietnamese.
            1999, Sergio Rua <srua@iname.com>
@@ -96,6 +97,7 @@ Files: data/Makefile.am
        Makefile.am
        autogen.sh
        configure.ac
+       makepot
        COPYING
        COPYING-DOCS
        ChangeLog
