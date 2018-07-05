@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: MATE Media
 Upstream-Contact: Martin Wimpress <martin@mate-desktop.org>
-Source: http://git.mate-desktop.org/mate-media/
+Source: https://git.mate-desktop.org/mate-media/
 
 Files: mate-volume-control/gvc-balance-bar.h
        mate-volume-control/gvc-channel-bar.h
