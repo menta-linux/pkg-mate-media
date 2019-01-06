@@ -1,3 +1,12 @@
+mate-media (1.20.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    + Bump Standards-Version: to 4.3.0. No changes needed.
+    + White-space cleanup at EOF.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 06 Jan 2019 13:08:21 +0100
+
 mate-media (1.20.1-1) unstable; urgency=medium
 
   * New upstream release.
