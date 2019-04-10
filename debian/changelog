@@ -1,3 +1,9 @@
+mate-media (1.22.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 18 Mar 2019 20:30:23 +0000
+
 mate-media (1.20.2-1) unstable; urgency=medium
 
   * New upstream release.
