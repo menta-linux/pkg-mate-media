@@ -91,6 +91,13 @@ Files: data/Makefile.am
        data/sounds/Makefile.am
        data/sounds/*.ogg
        data/sounds/*.in
+       mate-volume-control/gvc-status-icon.c
+       mate-volume-control/gvc-status-icon.h
+       mate-volume-control/gvc-stream-applet-icon.c
+       mate-volume-control/gvc-stream-applet-icon.h
+       mate-volume-control/org.mate.applets.GvcApplet.mate-panel-applet.in.in
+       mate-volume-control/org.mate.panel.applet.GvcAppletFactory.service.in
+       mate-volume-control/status-icon-main.c
        .tx/config
        .github/issue_template.md
        AUTHORS
