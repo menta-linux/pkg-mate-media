@@ -1,3 +1,12 @@
+mate-media (1.22.1-2) unstable; urgency=medium
+
+  [ Martin Wimpress ]
+  * debian/mate-media-common.maintscript:
+    + Due to how /etc files are handled, use maintscript to make sure the file
+      is actually renamed, not copied with a new name.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 02 Sep 2019 16:55:36 +0200
+
 mate-media (1.22.1-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
