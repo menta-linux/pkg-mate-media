@@ -91,28 +91,30 @@ Files: data/Makefile.am
        data/sounds/Makefile.am
        data/sounds/*.ogg
        data/sounds/*.in
+       its/sounds.its
+       its/sounds.loc
        mate-volume-control/gvc-status-icon.c
        mate-volume-control/gvc-status-icon.h
        mate-volume-control/gvc-stream-applet-icon.c
        mate-volume-control/gvc-stream-applet-icon.h
-       mate-volume-control/org.mate.applets.GvcApplet.mate-panel-applet.in.in
+       mate-volume-control/org.mate.applets.GvcApplet.mate-panel-applet.desktop.in.in
        mate-volume-control/org.mate.panel.applet.GvcAppletFactory.service.in
        mate-volume-control/status-icon-main.c
        .travis.yml
        .tx/config
        .github/issue_template.md
+       .github/FUNDING.yml
        AUTHORS
        Makefile.am
        autogen.sh
        configure.ac
        makepot
-       COPYING
-       COPYING-DOCS
        ChangeLog
        NEWS
        README
        po/ChangeLog
        po/LINGUAS
+       po/Makevars
        po/POTFILES.in
        po/POTFILES.skip
        po/gnome-copyrights.txt
