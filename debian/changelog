@@ -1,17 +1,20 @@
-mate-media (1.24.0-1) UNRELEASED; urgency=medium
+mate-media (1.24.0-1) unstable; urgency=medium
 
   [ Mike Gabriel ]
   * debian/control:
     + Add Rules-Requires-Root: field and set it to no.
     + Bump Standards-Version: to 4.5.0. No changes needed.
+    + Update versioned B-D on mate-common (>= 1.24.0-1~).
   * debian/upstream/metadata:
     + Drop obsolete fields Contact: and Name:.
     + Append .git suffix to URLs in Repository: field.
 
   [ Martin Wimpress ]
   * New upstream release.
+  * debian/copyright:
+    + Update copyright attributions.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 12 Feb 2020 23:31:09 +0000
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 14 Feb 2020 09:53:24 +0100
 
 mate-media (1.22.2-1) unstable; urgency=medium
 
