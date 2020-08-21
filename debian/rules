@@ -17,6 +17,8 @@ override_dh_install:
 ifeq ($(shell dpkg-vendor --is Ubuntu && echo yes),yes)
 	rm -f debian/tmp/etc/xdg/autostart/mate-volume-control-status-icon.desktop
 endif
+	# upstream needs to rename their man page...
+	mv debian/tmp/usr/share/man/man1/mate-volume-control-applet.1.gz debian/tmp/usr/share/man/man1/mate-volume-control-status-icon.1.gz
 	dh_install
 
 override_dh_auto_configure:
