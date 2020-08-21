@@ -100,6 +100,7 @@ Files: data/Makefile.am
        mate-volume-control/org.mate.applets.GvcApplet.mate-panel-applet.desktop.in.in
        mate-volume-control/org.mate.panel.applet.GvcAppletFactory.service.in
        mate-volume-control/status-icon-main.c
+       .build.yml
        .travis.yml
        .tx/config
        .github/issue_template.md
