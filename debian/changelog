@@ -1,8 +1,21 @@
-mate-media (1.26.0-1) UNRELEASED; urgency=medium
+mate-media (1.26.0-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/rules:
+    + Man page rename applied upstream.
+  * debian/patches:
+    + Add 0001_revert-fix-validation-warnings.patch. (LP: #1945261)
 
- -- Martin Wimpress <code@wimpress.io>  Sat, 21 Aug 2021 18:02:13 +0100
+  [ Mike Gabriel ]
+  * debian/control:
+    + Bump Standards-Version: to 4.6.0. No changes needed.
+  * debian/watch:
+    + Use format version 4.
+  * debian/copyright:
+    + Update copyright attributions.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 11 Dec 2021 23:56:43 +0100
 
 mate-media (1.24.1-1) unstable; urgency=medium
 
