@@ -1,1 +1,2 @@
 0001_revert-fix-validation-warnings.patch
+0002_fix-memleak-in-vol-mixer.patch
