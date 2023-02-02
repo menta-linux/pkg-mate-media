@@ -1,5 +1,19 @@
+From 0d07e873ee10228a7d79221f42713a61e68b40b0 Mon Sep 17 00:00:00 2001
+From: rbuj <robert.buj@gmail.com>
+Date: Tue, 12 Oct 2021 11:55:51 +0200
+Subject: [PATCH] Revert Fix desktop file validation warnings It reverts the
+ commit 2391307, thus the application mate-volume-control is displayed in the
+ audio mixers section (Applications->Sound & Video->Mixers->Sound) because of
+ the categories "AudioVideo;Audio;Mixer;", as well as it is also shown in the
+ hardware sections of Hardware section (System-> Preferences->Hardware->Sound)
+ and control center because of the categories "Settings;HardwareSettings;".
+
+---
+ data/mate-volume-control.desktop.in.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/data/mate-volume-control.desktop.in.in b/data/mate-volume-control.desktop.in.in
-index 3a77b8d..3223e96 100644
+index 3a77b8d..8cf91af 100644
 --- a/data/mate-volume-control.desktop.in.in
 +++ b/data/mate-volume-control.desktop.in.in
 @@ -7,7 +7,7 @@ Icon=multimedia-volume-control
@@ -7,7 +21,7 @@ index 3a77b8d..3223e96 100644
  Type=Application
  StartupNotify=true
 -Categories=GTK;AudioVideo;Audio;Mixer;
-+Categories=AudioVideo;Mixer;Settings;HardwareSettings;
++Categories=GTK;Settings;HardwareSettings;AudioVideo;Audio;Mixer;
  # Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
  Keywords=MATE;volume;control;mixer;settings;sound;events;
  OnlyShowIn=MATE;
