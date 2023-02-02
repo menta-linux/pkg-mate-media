@@ -1,3 +1,17 @@
+mate-media (1.26.0-2) unstable; urgency=medium
+
+  * debian/patches:
+    + Use 0001_revert-fix-validation-warnings.patch from upstream Git (with
+      all the metadata included).
+    + Add 0002_fix-memleak-in-vol-mixer.patch. (Closes: #971783).
+    + Add 0003_a11y-improvements.patch.
+  * debian/control:
+    + Bump Standards-Version: to 4.6.2. No changes needed.
+  * debian/copyright:
+    + Update copyright attributions for debian/.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 02 Feb 2023 15:15:21 +0100
+
 mate-media (1.26.0-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
