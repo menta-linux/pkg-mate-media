@@ -1,8 +1,12 @@
-mate-media (1.26.2-1) UNRELEASED; urgency=medium
+mate-media (1.26.2-1) unstable; urgency=medium
 
   * New upstream release.
+  * debian/patches:
+    + Drop all patches. Applied upstream.
+  * debian/copyright:
+    + Update copyright attribution for debian/.
 
- -- Mike Gabriel <sunweaver@debian.org>  Sat, 06 Jan 2024 09:25:20 +0100
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 06 Jan 2024 09:25:42 +0100
 
 mate-media (1.26.0-2) unstable; urgency=medium
 
