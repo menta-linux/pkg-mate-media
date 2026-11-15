@@ -1,3 +1,4 @@
 version=4
-https://git.mate-desktop.org/mate-media/ \
-    snapshot/mate-media-(\d\.(?:[0-9]+|)[24680]\.\d)\.tar\.xz
+opts="searchmode=plain" \
+https://api.github.com/repos/mate-desktop/mate-media/releases?per_page=100 \
+    https://github.com/mate-desktop/mate-media/releases/download/v(\d\S*)/mate-media-(\d\S*)\.tar\.xz

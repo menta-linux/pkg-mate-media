@@ -1,3 +1,17 @@
+mate-media (1.29.0-1menta1) unstable; urgency=medium
+
+  * Menta Linux rebuild: new upstream release 1.29.0 (development
+    snapshot).
+  * Switch to meson; build with -Dwayland=yes -Din-process=true (volume
+    control applet in-process, Wayland-capable).
+  * debian/control: Add libgtk-layer-shell-dev, libwayland-dev, meson,
+    gettext; drop autotools deps.
+  * debian/mate-media.install: Drop D-Bus service (applet is in-process);
+    mate-media-common.install: install the GSettings schema.
+  * debian/watch: Track GitHub releases.
+
+ -- Menta Linux <packages@menta-linux.invalid>  Sat, 14 Nov 2026 17:13:34 -0700
+
 mate-media (1.26.2-1) unstable; urgency=medium
 
   * New upstream release.

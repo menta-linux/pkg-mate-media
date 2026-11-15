@@ -7,7 +7,7 @@ DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 
 %:
-	dh $@ $(DHFLAGS) --without autoreconf
+	dh $@ $(DHFLAGS) --buildsystem=meson --without autoreconf
 
 override_dh_missing:
 	dh_missing --fail-missing
@@ -19,13 +19,14 @@ ifeq ($(shell dpkg-vendor --is Ubuntu && echo yes),yes)
 endif
 	dh_install
 
+# upstream requires in-process=true for wayland=yes; the volume control applet
+# is then built as an in-process library loaded by mate-panel
 override_dh_auto_configure:
-	# upstream tarball is without configure. autogen.sh will create it
-	NOCONFIGURE=1 ./autogen.sh
-	dh_auto_configure $(DHFLAGS) -- \
-		--localstatedir=/var \
-		--disable-silent-rules \
-		--disable-static
+	dh_auto_configure -- \
+		-Dpanelapplet=true \
+		-Dstatusicon=true \
+		-Din-process=true \
+		-Dwayland=yes
 
 get-orig-source:
 	uscan --noconf --force-download --rename --download-current-version --destdir=..
